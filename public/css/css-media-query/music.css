@@ -177,9 +177,19 @@
 }
 
 @media screen and (max-height: 250px) {
+  .music {
+    height: 190%;
+    top: 40%;
+  }
+  span#play {
+    padding: 10px;
+  }
+  a#download {
+    padding: 10px;
+  }
   /* Footer */
   .footer {
-    height: 150%;
-    bottom: -230%;
+    height: 200%;
+    bottom: -340%;
   }
 }
